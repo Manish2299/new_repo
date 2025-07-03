@@ -4,6 +4,6 @@ resource "aws_s3_bucket" "example1" {
 }
 
 resource "aws_instance" "web" {
-  ami           = "ami-084568db4383264d4"
+  ami           = "ami-0a7d80731ae1b2435"
   instance_type = "t2.micro"
 }
